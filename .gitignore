@@ -1,0 +1,27 @@
+# Ignore bin folder (compiled files)
+bin/
+
+# Ignore object files (intermediate compilation files)
+*.o
+
+# Ignore compiled executables
+*.exe
+*.out
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+
+# Ignore temporary and backup files
+*~
+*.log
+*.tmp
+
+# Ignore system files (Windows and macOS specific)
+.DS_Store
+Thumbs.db
+
+# Ignore environment configuration files (if they contain sensitive data)
+.env
+config.json
+
